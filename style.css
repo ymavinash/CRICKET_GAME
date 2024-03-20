@@ -60,3 +60,9 @@ input[type=submit]{
     margin-right: 60px;
 
 }
+#BATTING{
+   background: red;
+}
+#refresh{
+    background: orange;
+}

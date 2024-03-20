@@ -22,7 +22,12 @@ function superover() {
 }
 var countball = 0;
 function bat() {
-  
+  if(team2<team1 && team2!=0){
+    result();
+  }
+  else{
+
+
   if (countball < 6 && w1 < 2) {
     var ri = list[Math.floor(Math.random() * 7)];
     console.log(ri);
@@ -37,8 +42,6 @@ function bat() {
     }
     countball++;
     i++;
-
-
   } 
   else {
     rtoss = "srh";
@@ -47,10 +50,17 @@ function bat() {
     }
   }
 }
+}
 
 var countball2 = 0;
 
 function bat2() {
+  if(team1<team2 && team1!=0){
+    result();
+  }
+  else{
+
+  
   if (countball2 < 6 && w2 < 2) {
     var ri = list[Math.floor(Math.random() * 7)];
     console.log(ri);
@@ -71,6 +81,7 @@ function bat2() {
         result();
     }
   }
+}
 }
 
 function result(){
